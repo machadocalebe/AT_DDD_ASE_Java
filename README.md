@@ -4,6 +4,8 @@ Projeto de referência para um marketplace de contratação de freelancers const
 
 A aplicação representa um cenário em que clientes contratam freelancers para a execução de trabalhos. O núcleo do sistema é o gerenciamento dos contratos firmados entre as partes. A partir desse domínio, outros serviços mantêm informações relacionadas a notificações, reputação e auditoria.
 
+> Comunicação assíncrona com Kafka (eventos, Outbox, idempotência, ordenação, logs e tracing): veja [docs/ARQUITETURA-EVENTOS.md](docs/ARQUITETURA-EVENTOS.md).
+
 ## Visão geral
 
 O sistema é composto por seis aplicações Spring Boot:
